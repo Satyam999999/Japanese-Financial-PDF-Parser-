@@ -1,0 +1,216 @@
+{
+  "generated_at": "2026-10-23T17:30:54.652962+00:00",
+  "summary": {
+    "total_pdfs": 2,
+    "matched_pdfs": 1,
+    "unmatched_pdfs": 1,
+    "aggregate_cell_accuracy": 1.0,
+    "aggregate_structure_accuracy": 1.0,
+    "aggregate_formula_accuracy": 1.0,
+    "aggregate_arithmetic_consistency": 1.0,
+    "total_cells": 86,
+    "matched_cells": 86,
+    "total_structure_rows": 43,
+    "matched_structure_rows": 43,
+    "total_formulas": 10,
+    "matched_formulas": 10,
+    "total_arithmetic_checks": 40,
+    "passing_arithmetic_checks": 40,
+    "taxonomy_counts": {
+      "wrong_number": 0,
+      "wrong_sign": 0,
+      "nil_vs_zero": 0,
+      "missing_row": 0,
+      "extra_row": 0,
+      "merged_rows": 0,
+      "wrong_level": 0,
+      "wrong_row_type": 0,
+      "wrong_parent": 0,
+      "wrong_unit": 0
+    }
+  },
+  "taxonomy_aggregate": {
+    "wrong_number": {
+      "count": 0,
+      "examples": []
+    },
+    "wrong_sign": {
+      "count": 0,
+      "examples": []
+    },
+    "nil_vs_zero": {
+      "count": 0,
+      "examples": []
+    },
+    "missing_row": {
+      "count": 0,
+      "examples": []
+    },
+    "extra_row": {
+      "count": 0,
+      "examples": []
+    },
+    "merged_rows": {
+      "count": 0,
+      "examples": []
+    },
+    "wrong_level": {
+      "count": 0,
+      "examples": []
+    },
+    "wrong_row_type": {
+      "count": 0,
+      "examples": []
+    },
+    "wrong_parent": {
+      "count": 0,
+      "examples": []
+    },
+    "wrong_unit": {
+      "count": 0,
+      "examples": []
+    }
+  },
+  "per_pdf_results": [
+    {
+      "file_name": "balance_sheet_after_correction.pdf",
+      "stem": "balance_sheet_after_correction",
+      "has_ground_truth": false,
+      "errors": [],
+      "row_count_parser": 43,
+      "arithmetic_checks": 20,
+      "arithmetic_passing": 20,
+      "arithmetic_consistency": 1.0,
+      "arithmetic_failures": [],
+      "cell_accuracy": null,
+      "structure_accuracy": null,
+      "formula_accuracy": null,
+      "taxonomy": {
+        "wrong_number": {
+          "count": 0,
+          "examples": []
+        },
+        "wrong_sign": {
+          "count": 0,
+          "examples": []
+        },
+        "nil_vs_zero": {
+          "count": 0,
+          "examples": []
+        },
+        "missing_row": {
+          "count": 0,
+          "examples": []
+        },
+        "extra_row": {
+          "count": 0,
+          "examples": []
+        },
+        "merged_rows": {
+          "count": 0,
+          "examples": []
+        },
+        "wrong_level": {
+          "count": 0,
+          "examples": []
+        },
+        "wrong_row_type": {
+          "count": 0,
+          "examples": []
+        },
+        "wrong_parent": {
+          "count": 0,
+          "examples": []
+        },
+        "wrong_unit": {
+          "count": 0,
+          "examples": []
+        }
+      }
+    },
+    {
+      "file_name": "sample_bs_p4.pdf",
+      "stem": "sample_bs_p4",
+      "has_ground_truth": true,
+      "errors": [],
+      "row_count_parser": 43,
+      "arithmetic_checks": 20,
+      "arithmetic_passing": 20,
+      "arithmetic_consistency": 1.0,
+      "arithmetic_failures": [],
+      "row_count_ground_truth": 43,
+      "row_count_match": true,
+      "cell_accuracy": 1.0,
+      "cell_accuracy_details": {
+        "total_cells": 86,
+        "matched_values": 86,
+        "mismatched_values": 0,
+        "matched_labels": 86,
+        "missing_labels": 0,
+        "extra_labels": 0
+      },
+      "structure_accuracy": 1.0,
+      "structure_accuracy_details": {
+        "total_rows": 43,
+        "order_matches": 43,
+        "level_matches": 43,
+        "row_type_matches": 43,
+        "parent_matches": 43,
+        "full_matches": 43,
+        "order_accuracy": 1.0,
+        "level_accuracy": 1.0,
+        "row_type_accuracy": 1.0,
+        "parent_accuracy": 1.0
+      },
+      "formula_accuracy": 1.0,
+      "formula_accuracy_details": {
+        "total_formulas": 10,
+        "matched_formulas": 10,
+        "mismatched_formulas": 0,
+        "missing_formulas": 0
+      },
+      "taxonomy": {
+        "wrong_number": {
+          "count": 0,
+          "examples": []
+        },
+        "wrong_sign": {
+          "count": 0,
+          "examples": []
+        },
+        "nil_vs_zero": {
+          "count": 0,
+          "examples": []
+        },
+        "missing_row": {
+          "count": 0,
+          "examples": []
+        },
+        "extra_row": {
+          "count": 0,
+          "examples": []
+        },
+        "merged_rows": {
+          "count": 0,
+          "examples": []
+        },
+        "wrong_level": {
+          "count": 0,
+          "examples": []
+        },
+        "wrong_row_type": {
+          "count": 0,
+          "examples": []
+        },
+        "wrong_parent": {
+          "count": 0,
+          "examples": []
+        },
+        "wrong_unit": {
+          "count": 0,
+          "examples": []
+        }
+      }
+    }
+  ]
+}
